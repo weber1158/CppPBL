@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <ctime>
-#include <random>
 
 int main(){
     const std::string W1[] 
@@ -163,9 +162,9 @@ int main(){
         };
 
     srand(time(0));
-    int i1 = rand() % 50;
-    int i2 = rand() % 50;
-    int i3 = rand() % 50;
+    int i1 = std::rand() % 50;
+    int i2 = std::rand() % 50;
+    int i3 = std::rand() % 50;
 
     std::cout << "Thou " << W1[i1] << " " << W2[i2] << " " << W3[i3] << "!" << std::endl;
 

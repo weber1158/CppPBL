@@ -161,7 +161,7 @@ int main(){
            "wagtail"
         };
 
-    std::srand(time(0));
+    std::srand(time(NULL));
     int i1 = std::rand() % 50;
     int i2 = std::rand() % 50;
     int i3 = std::rand() % 50;
